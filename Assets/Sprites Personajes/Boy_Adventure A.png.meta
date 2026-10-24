@@ -1,0 +1,1989 @@
+fileFormatVersion: 2
+guid: 23936e175d9032e4da84e20fc017f644
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5823663401899216975
+    second: Boy_Adventure A_0
+  - first:
+      213: 1699862030574096869
+    second: Boy_Adventure A_1
+  - first:
+      213: 1833031473299730678
+    second: Boy_Adventure A_2
+  - first:
+      213: 9163190456408741720
+    second: Boy_Adventure A_3
+  - first:
+      213: 4080392120619141853
+    second: Boy_Adventure A_4
+  - first:
+      213: 9066024662349102496
+    second: Boy_Adventure A_5
+  - first:
+      213: 8229518138998573000
+    second: Boy_Adventure A_6
+  - first:
+      213: -2161788389069298158
+    second: Boy_Adventure A_7
+  - first:
+      213: -1357370821832377514
+    second: Boy_Adventure A_8
+  - first:
+      213: -7990761020145738349
+    second: Boy_Adventure A_9
+  - first:
+      213: 1172096791013117581
+    second: Boy_Adventure A_10
+  - first:
+      213: 3162644388214288110
+    second: Boy_Adventure A_11
+  - first:
+      213: -3622721827464373002
+    second: Boy_Adventure A_12
+  - first:
+      213: -1716211839099348213
+    second: Boy_Adventure A_13
+  - first:
+      213: -5268795559842890996
+    second: Boy_Adventure A_14
+  - first:
+      213: -2855996600560710021
+    second: Boy_Adventure A_15
+  - first:
+      213: -8201134062907181920
+    second: Boy_Adventure A_16
+  - first:
+      213: -6731887371808706817
+    second: Boy_Adventure A_17
+  - first:
+      213: 3842302529312554494
+    second: Boy_Adventure A_18
+  - first:
+      213: -9024106577177988011
+    second: Boy_Adventure A_19
+  - first:
+      213: -7580717357351842001
+    second: Boy_Adventure A_20
+  - first:
+      213: 4578441165133275293
+    second: Boy_Adventure A_21
+  - first:
+      213: 7593161996028877228
+    second: Boy_Adventure A_22
+  - first:
+      213: 3722988846805807900
+    second: Boy_Adventure A_23
+  - first:
+      213: 4969531768384435731
+    second: Boy_Adventure A_24
+  - first:
+      213: -8475859006970928043
+    second: Boy_Adventure A_25
+  - first:
+      213: 3647897004417766775
+    second: Boy_Adventure A_26
+  - first:
+      213: -3236536689552834241
+    second: Boy_Adventure A_27
+  - first:
+      213: 3151666015067769226
+    second: Boy_Adventure A_28
+  - first:
+      213: 8088177622146551045
+    second: Boy_Adventure A_29
+  - first:
+      213: 8137739073976073845
+    second: Boy_Adventure A_30
+  - first:
+      213: 4551113358181930213
+    second: Boy_Adventure A_31
+  - first:
+      213: 6375610991074289741
+    second: Boy_Adventure A_32
+  - first:
+      213: 4783554968695094731
+    second: Boy_Adventure A_33
+  - first:
+      213: 2662472336587072732
+    second: Boy_Adventure A_34
+  - first:
+      213: 3828211677991190746
+    second: Boy_Adventure A_35
+  - first:
+      213: 8690277933024016851
+    second: Boy_Adventure A_36
+  - first:
+      213: 7678080321251093404
+    second: Boy_Adventure A_37
+  - first:
+      213: -6762665934531416015
+    second: Boy_Adventure A_38
+  - first:
+      213: -7288897227473862282
+    second: Boy_Adventure A_39
+  - first:
+      213: 5876219698414503286
+    second: Boy_Adventure A_40
+  - first:
+      213: 4477139187098361168
+    second: Boy_Adventure A_41
+  - first:
+      213: 5527154311650445033
+    second: Boy_Adventure A_42
+  - first:
+      213: -6994043591175042385
+    second: Boy_Adventure A_43
+  - first:
+      213: 9105799196743588845
+    second: Boy_Adventure A_44
+  - first:
+      213: 1997527195407844313
+    second: Boy_Adventure A_45
+  - first:
+      213: 2889964943592631566
+    second: Boy_Adventure A_46
+  - first:
+      213: -174814520532314937
+    second: Boy_Adventure A_47
+  - first:
+      213: 7582927483818022908
+    second: Boy_Adventure A_48
+  - first:
+      213: 6025357909431934288
+    second: Boy_Adventure A_49
+  - first:
+      213: 6383221353563389285
+    second: Boy_Adventure A_50
+  - first:
+      213: -1077656630336413062
+    second: Boy_Adventure A_51
+  - first:
+      213: 6914575324140153889
+    second: Boy_Adventure A_52
+  - first:
+      213: 5576540769345441076
+    second: Boy_Adventure A_53
+  - first:
+      213: -5357972686919214072
+    second: Boy_Adventure A_54
+  - first:
+      213: 4060233830436762759
+    second: Boy_Adventure A_55
+  - first:
+      213: 5017384361561771447
+    second: Boy_Adventure A_56
+  - first:
+      213: 4362625137044055966
+    second: Boy_Adventure A_57
+  - first:
+      213: 4293469656922027323
+    second: Boy_Adventure A_58
+  - first:
+      213: -6249141054278232810
+    second: Boy_Adventure A_59
+  - first:
+      213: -8223136415145159192
+    second: Boy_Adventure A_60
+  - first:
+      213: -4834358013414641925
+    second: Boy_Adventure A_61
+  - first:
+      213: -3269237571902374837
+    second: Boy_Adventure A_62
+  - first:
+      213: -2284356330322232549
+    second: Boy_Adventure A_63
+  - first:
+      213: 5857694120924732376
+    second: Boy_Adventure A_64
+  - first:
+      213: 6774692466868494768
+    second: Boy_Adventure A_65
+  - first:
+      213: -1801855886372631923
+    second: Boy_Adventure A_66
+  - first:
+      213: -245187844374107037
+    second: Boy_Adventure A_67
+  - first:
+      213: 228768620616428382
+    second: Boy_Adventure A_68
+  - first:
+      213: 3584997821925372134
+    second: Boy_Adventure A_69
+  - first:
+      213: 1666893383985262316
+    second: Boy_Adventure A_70
+  - first:
+      213: 5068065471659830316
+    second: Boy_Adventure A_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boy_Adventure A_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 543
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfaa56bdf03e2fa0800000000000000
+      internalID: -5823663401899216975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 543
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e11b83b28f179710800000000000000
+      internalID: 1699862030574096869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 543
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f03424c96c307910800000000000000
+      internalID: 1833031473299730678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 543
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8571e73eb213a2f70800000000000000
+      internalID: 9163190456408741720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 543
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda8ecdc30770a830800000000000000
+      internalID: 4080392120619141853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 543
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adbf34856df0dd70800000000000000
+      internalID: 9066024662349102496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 495
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7c4a3452f153270800000000000000
+      internalID: 8229518138998573000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 495
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216e5fde9e8cff1e0800000000000000
+      internalID: -2161788389069298158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_8
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 495
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b7330ed66a92de0800000000000000
+      internalID: -1357370821832377514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 495
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ddc25603d1b1190800000000000000
+      internalID: -7990761020145738349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 495
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e46b642df144010800000000000000
+      internalID: 1172096791013117581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 495
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee256e8058f3eb20800000000000000
+      internalID: 3162644388214288110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 447
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc9ee121b189bdc0800000000000000
+      internalID: -3622721827464373002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 448
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bd92bdc6ace28e0800000000000000
+      internalID: -1716211839099348213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 447
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bb8658a5a71e6b0800000000000000
+      internalID: -5268795559842890996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 447
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e0bd739367d58d0800000000000000
+      internalID: -2855996600560710021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 449
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4bf017508bf2e80800000000000000
+      internalID: -8201134062907181920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_17
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 448
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe67673a188392a0800000000000000
+      internalID: -6731887371808706817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 399
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd72430bc9925530800000000000000
+      internalID: 3842302529312554494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_19
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 399
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5543a0c31eee3c280800000000000000
+      internalID: -9024106577177988011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_20
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 399
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fc7645ab1ebc690800000000000000
+      internalID: -7580717357351842001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 401
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d906bc86bf3e98f30800000000000000
+      internalID: 4578441165133275293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 351
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca91c47ea94506960800000000000000
+      internalID: 7593161996028877228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 351
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13f99481a6baa330800000000000000
+      internalID: 3722988846805807900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_24
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 351
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316b29a40d257f440800000000000000
+      internalID: 4969531768384435731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_25
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 351
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554e333e323bf5a80800000000000000
+      internalID: -8475859006970928043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_26
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 303
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77558858ffeef9230800000000000000
+      internalID: 3647897004417766775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 303
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f314fac57038513d0800000000000000
+      internalID: -3236536689552834241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 303
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8909ceda87fcbb20800000000000000
+      internalID: 3151666015067769226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 303
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d0f40c1bafe3070800000000000000
+      internalID: 8088177622146551045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 303
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ef82b729e0fe070800000000000000
+      internalID: 8137739073976073845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_31
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 301
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e418f68c7dc82f30800000000000000
+      internalID: 4551113358181930213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 301
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d482f0dba68ba7850800000000000000
+      internalID: 6375610991074289741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_33
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 301
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd30a056e9926240800000000000000
+      internalID: 4783554968695094731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 254
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4a396db7003f420800000000000000
+      internalID: 2662472336587072732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0caa70d3a802530800000000000000
+      internalID: 3828211677991190746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 255
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9ff4dacb11a9870800000000000000
+      internalID: 8690277933024016851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ba6193f550e8a60800000000000000
+      internalID: 7678080321251093404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_38
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 255
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130be95a92f2622a0800000000000000
+      internalID: -6762665934531416015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_39
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67147100792a8da90800000000000000
+      internalID: -7288897227473862282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_40
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 255
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6754622aea68c8150800000000000000
+      internalID: 5876219698414503286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_41
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 255
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d9af8ae5ef12e30800000000000000
+      internalID: 4477139187098361168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 207
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e681b4ff8564bc40800000000000000
+      internalID: 5527154311650445033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_43
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 207
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa0a6ce86a20fe90800000000000000
+      internalID: -6994043591175042385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 207
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb50f5ff1c4e5e70800000000000000
+      internalID: 9105799196743588845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 207
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3877f9664a8bb10800000000000000
+      internalID: 1997527195407844313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_46
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 207
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dab24fdc73b1820800000000000000
+      internalID: 2889964943592631566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 207
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4571aae1fe29df0800000000000000
+      internalID: -174814520532314937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_48
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 207
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf71586de58fb3960800000000000000
+      internalID: 7582927483818022908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_49
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 207
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dd74c481f5e9350800000000000000
+      internalID: 6025357909431934288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_50
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d75d55002c59850800000000000000
+      internalID: 6383221353563389285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_51
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 159
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7224fe11056b01f0800000000000000
+      internalID: -1077656630336413062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_52
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 159
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c2e005f9185ff50800000000000000
+      internalID: 6914575324140153889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_53
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d8150b84ad36d40800000000000000
+      internalID: 5576540769345441076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_54
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c5fef9a38a4a5b0800000000000000
+      internalID: -5357972686919214072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784f4302829d85830800000000000000
+      internalID: 4060233830436762759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_56
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd4d7c5e7451a540800000000000000
+      internalID: 5017384361561771447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_57
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9763bda2782b8c30800000000000000
+      internalID: 4362625137044055966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_58
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3571cab7e7759b30800000000000000
+      internalID: 4293469656922027323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6159f6c02579649a0800000000000000
+      internalID: -6249141054278232810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_60
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 63
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e591bb9ffc81ed80800000000000000
+      internalID: -8223136415145159192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 63
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe6b551009e8ecb0800000000000000
+      internalID: -4834358013414641925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_62
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 63
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cf560efb551a2d0800000000000000
+      internalID: -3269237571902374837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_63
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 63
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b7ab645065c40e0800000000000000
+      internalID: -2284356330322232549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_64
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 15
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbdc9084c5ba4150800000000000000
+      internalID: 5857694120924732376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_65
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 15
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1263e97ea840e50800000000000000
+      internalID: 6774692466868494768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_66
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 15
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a00543e958ef6e0800000000000000
+      internalID: -1801855886372631923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 15
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c66d064fae89cf0800000000000000
+      internalID: -245187844374107037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 15
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b299f29dfbc2300800000000000000
+      internalID: 228768620616428382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_69
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 15
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e03960668870c130800000000000000
+      internalID: 3584997821925372134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_70
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 15
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceee3ee73bef12710800000000000000
+      internalID: 1666893383985262316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Adventure A_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 15
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ce4b8d1b2655640800000000000000
+      internalID: 5068065471659830316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boy_Adventure A_0: -5823663401899216975
+      Boy_Adventure A_1: 1699862030574096869
+      Boy_Adventure A_10: 1172096791013117581
+      Boy_Adventure A_11: 3162644388214288110
+      Boy_Adventure A_12: -3622721827464373002
+      Boy_Adventure A_13: -1716211839099348213
+      Boy_Adventure A_14: -5268795559842890996
+      Boy_Adventure A_15: -2855996600560710021
+      Boy_Adventure A_16: -8201134062907181920
+      Boy_Adventure A_17: -6731887371808706817
+      Boy_Adventure A_18: 3842302529312554494
+      Boy_Adventure A_19: -9024106577177988011
+      Boy_Adventure A_2: 1833031473299730678
+      Boy_Adventure A_20: -7580717357351842001
+      Boy_Adventure A_21: 4578441165133275293
+      Boy_Adventure A_22: 7593161996028877228
+      Boy_Adventure A_23: 3722988846805807900
+      Boy_Adventure A_24: 4969531768384435731
+      Boy_Adventure A_25: -8475859006970928043
+      Boy_Adventure A_26: 3647897004417766775
+      Boy_Adventure A_27: -3236536689552834241
+      Boy_Adventure A_28: 3151666015067769226
+      Boy_Adventure A_29: 8088177622146551045
+      Boy_Adventure A_3: 9163190456408741720
+      Boy_Adventure A_30: 8137739073976073845
+      Boy_Adventure A_31: 4551113358181930213
+      Boy_Adventure A_32: 6375610991074289741
+      Boy_Adventure A_33: 4783554968695094731
+      Boy_Adventure A_34: 2662472336587072732
+      Boy_Adventure A_35: 3828211677991190746
+      Boy_Adventure A_36: 8690277933024016851
+      Boy_Adventure A_37: 7678080321251093404
+      Boy_Adventure A_38: -6762665934531416015
+      Boy_Adventure A_39: -7288897227473862282
+      Boy_Adventure A_4: 4080392120619141853
+      Boy_Adventure A_40: 5876219698414503286
+      Boy_Adventure A_41: 4477139187098361168
+      Boy_Adventure A_42: 5527154311650445033
+      Boy_Adventure A_43: -6994043591175042385
+      Boy_Adventure A_44: 9105799196743588845
+      Boy_Adventure A_45: 1997527195407844313
+      Boy_Adventure A_46: 2889964943592631566
+      Boy_Adventure A_47: -174814520532314937
+      Boy_Adventure A_48: 7582927483818022908
+      Boy_Adventure A_49: 6025357909431934288
+      Boy_Adventure A_5: 9066024662349102496
+      Boy_Adventure A_50: 6383221353563389285
+      Boy_Adventure A_51: -1077656630336413062
+      Boy_Adventure A_52: 6914575324140153889
+      Boy_Adventure A_53: 5576540769345441076
+      Boy_Adventure A_54: -5357972686919214072
+      Boy_Adventure A_55: 4060233830436762759
+      Boy_Adventure A_56: 5017384361561771447
+      Boy_Adventure A_57: 4362625137044055966
+      Boy_Adventure A_58: 4293469656922027323
+      Boy_Adventure A_59: -6249141054278232810
+      Boy_Adventure A_6: 8229518138998573000
+      Boy_Adventure A_60: -8223136415145159192
+      Boy_Adventure A_61: -4834358013414641925
+      Boy_Adventure A_62: -3269237571902374837
+      Boy_Adventure A_63: -2284356330322232549
+      Boy_Adventure A_64: 5857694120924732376
+      Boy_Adventure A_65: 6774692466868494768
+      Boy_Adventure A_66: -1801855886372631923
+      Boy_Adventure A_67: -245187844374107037
+      Boy_Adventure A_68: 228768620616428382
+      Boy_Adventure A_69: 3584997821925372134
+      Boy_Adventure A_7: -2161788389069298158
+      Boy_Adventure A_70: 1666893383985262316
+      Boy_Adventure A_71: 5068065471659830316
+      Boy_Adventure A_8: -1357370821832377514
+      Boy_Adventure A_9: -7990761020145738349
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
