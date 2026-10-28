@@ -2,6 +2,8 @@ Nombre del juego: CardPush
 
 Hecho por Gabriel Rivas
 
+Plataforma: Windows
+
 Pipeline: Universal Render Pipeline (URP) para manejar luces 2D y materiales Sprites-Default (sirvio tambien para solucionar bug de animación).
 
 Físicas: Rigidbody2D e impulsos físicos para el sistema de empuje al perder turnos.
