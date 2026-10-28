@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Q_trebol
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: Q de trebol
-  valor: 10
+  valor: 12
   imagenCarta: {fileID: -6675019034400255153, guid: edb9f8f461259204fb1ab1db8cb85078, type: 3}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: J_diamante
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: J de diamante
-  valor: 10
+  valor: 11
   imagenCarta: {fileID: -6361470639365674727, guid: c8b57f23e675da846bd3ad83db52326b, type: 3}

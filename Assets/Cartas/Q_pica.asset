@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Q_pica
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: Q de pica
-  valor: 10
+  valor: 12
   imagenCarta: {fileID: -7187644187445921280, guid: bd4dc88701e5ea949822201b13df039b, type: 3}

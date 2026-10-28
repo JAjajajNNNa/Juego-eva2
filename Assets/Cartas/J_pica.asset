@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: J_pica
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: J de pica
-  valor: 10
+  valor: 11
   imagenCarta: {fileID: 1551109507416115885, guid: f966232b6710be44eb1db4b1d650b587, type: 3}

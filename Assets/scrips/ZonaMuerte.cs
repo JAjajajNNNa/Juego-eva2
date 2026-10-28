@@ -11,7 +11,7 @@ public class ZonaMuerte : MonoBehaviour
             Debug.Log("¡El Jugador cayó fuera de la plataforma! Gana el Oponente.");
             if (administradorJuego != null)
             {
-                administradorJuego.DeclararGanador(false); // Falso = Perdió el jugador
+                administradorJuego.DeclararGanador(false); 
             }
         }
         else if (other.CompareTag("Oponente"))
@@ -19,7 +19,7 @@ public class ZonaMuerte : MonoBehaviour
             Debug.Log("¡El Oponente cayó fuera de la plataforma! Gana el Jugador.");
             if (administradorJuego != null)
             {
-                administradorJuego.DeclararGanador(true); // Verdadero = Ganó el jugador
+                administradorJuego.DeclararGanador(true); 
             }
         }
     }

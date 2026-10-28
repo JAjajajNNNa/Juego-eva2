@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: K_pica
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: K_pica
-  valor: 10
+  valor: 13
   imagenCarta: {fileID: 2163105015294799856, guid: d062f48a02fa18d41aed098440d12ed9, type: 3}

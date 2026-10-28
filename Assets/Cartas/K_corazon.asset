@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: K_corazon
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: K de corazon
-  valor: 10
+  valor: 13
   imagenCarta: {fileID: -8552510808413893689, guid: 0fcd335a23fc1aa4b87e15d97b109a38, type: 3}

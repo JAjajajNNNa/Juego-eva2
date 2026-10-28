@@ -3,9 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class AdministradorJuego : MonoBehaviour
 {
+    public enum TipoModificador { Normal, DoblePunto, ReglasInvertidas, GravedadBaja }
+    public enum EstadoJuego { EsperandoJugador, TurnoOponente, Resolviendo, FinDelJuego }
+
+    [Header("Estado del Juego")]
+    public EstadoJuego estadoActual = EstadoJuego.EsperandoJugador;
+
     [Header("Mazo de Cartas")]
     public List<CartaDatos> mazoOriginal;
     private List<CartaDatos> mazoActual;
@@ -16,10 +23,14 @@ public class AdministradorJuego : MonoBehaviour
     public float distanciaAtaque = 0.2f;
     public float duracionAtaque = 0.25f;
 
-    [Tooltip("Si la carta del bot vale MENOS que esto (ej. 6), cambiará su carta 1 sola vez.")]
-    public int umbralCambioOponente = 6; 
+    [Header("Sistema de Vidas (Al mejor de 3)")]
+    public int vidasMaximas = 3;
+    private int vidasJugador;
+    private int vidasOponente;
 
     [Header("Referencias UI")]
+    public TextMeshProUGUI textoMarcador;
+    public TextMeshProUGUI textoModificador;
     public Image imagenCartaUI;
     public Button botonPedir;
     public Button botonPlantarse;
@@ -30,17 +41,30 @@ public class AdministradorJuego : MonoBehaviour
     public Animator animJugador;
     public Animator animOponente;
 
+    [Header("Efectos de Sonido (Opcional)")]
+    public AudioClip clipAtaque;
+    public AudioClip clipCarta;
+
+    private Vector3 posInicialJugador;
+    private Vector3 posInicialOponente;
+
     private CartaDatos cartaJugadorActual;
     private CartaDatos cartaOponenteActual;
     
-    private bool yaCambioJugador = false;
     private bool yaCambioOponente = false;
-    private bool juegoTerminado = false;
+    private TipoModificador modificadorRondaActual = TipoModificador.Normal;
 
     void Start()
     {
+        posInicialJugador = jugador.position;
+        posInicialOponente = oponente.position;
+
+        vidasJugador = vidasMaximas;
+        vidasOponente = vidasMaximas;
+
         InicializarMazo();
         ConfigurarBotones();
+        ActualizarMarcadorUI();
         IniciarNuevaRonda();
     }
 
@@ -48,7 +72,6 @@ public class AdministradorJuego : MonoBehaviour
     {
         mazoActual = new List<CartaDatos>(mazoOriginal);
 
-        // Barajamos el mazo completo con Fisher-Yates
         for (int i = mazoActual.Count - 1; i > 0; i--)
         {
             int randomIndex = Random.Range(0, i + 1);
@@ -75,9 +98,9 @@ public class AdministradorJuego : MonoBehaviour
 
     void IniciarNuevaRonda()
     {
-        if (juegoTerminado) return;
+        if (estadoActual == EstadoJuego.FinDelJuego) return;
 
-        yaCambioJugador = false;
+        estadoActual = EstadoJuego.EsperandoJugador;
         yaCambioOponente = false;
 
         if (mazoActual == null || mazoActual.Count < 2)
@@ -88,8 +111,81 @@ public class AdministradorJuego : MonoBehaviour
         cartaJugadorActual = ObtenerCartaAleatoria();
         cartaOponenteActual = ObtenerCartaAleatoria();
 
+        if (DatosJuego.modoSeleccionado == DatosJuego.ModoJuego.PorPintas)
+        {
+            ActualizarModificadorPorPinta();
+        }
+        else
+        {
+            SeleccionarModificadorAleatorio();
+        }
+
         ActualizarUI();
-        ActivarBotonesUI(true);
+        
+        if (botonPedir != null) botonPedir.interactable = true;
+        if (botonPlantarse != null) botonPlantarse.interactable = true;
+    }
+
+    void SeleccionarModificadorAleatorio()
+    {
+        modificadorRondaActual = (TipoModificador)Random.Range(0, 4);
+
+        if (textoModificador != null)
+        {
+            switch (modificadorRondaActual)
+            {
+                case TipoModificador.Normal:
+                    textoModificador.text = "Ronda Normal";
+                    break;
+                case TipoModificador.DoblePunto:
+                    textoModificador.text = "¡Ronda Fuerte! (Doble Empuje)";
+                    break;
+                case TipoModificador.ReglasInvertidas:
+                    textoModificador.text = "Reglas Invertidas: ¡Gana la carta MENOR!";
+                    break;
+                case TipoModificador.GravedadBaja:
+                    textoModificador.text = "Gravedad Baja: ¡Empujes más altos!";
+                    break;
+            }
+        }
+    }
+
+    void ActualizarModificadorPorPinta()
+    {
+        if (cartaJugadorActual == null) return;
+
+        string nombreLwr = cartaJugadorActual.nombreCarta.ToLower();
+
+        if (nombreLwr.Contains("diamante"))
+        {
+            modificadorRondaActual = TipoModificador.DoblePunto;
+            if (textoModificador != null)
+                textoModificador.text = "Carta Diamante: ¡Doble Empuje!";
+        }
+        else if (nombreLwr.Contains("pica"))
+        {
+            modificadorRondaActual = TipoModificador.ReglasInvertidas;
+            if (textoModificador != null)
+                textoModificador.text = "Carta Pica: ¡Reglas Invertidas! (Gana la menor)";
+        }
+        else if (nombreLwr.Contains("trebol"))
+        {
+            modificadorRondaActual = TipoModificador.GravedadBaja;
+            if (textoModificador != null)
+                textoModificador.text = "Carta Trébol: ¡Gravedad Baja!";
+        }
+        else if (nombreLwr.Contains("comodin") || nombreLwr.Contains("joker"))
+        {
+            modificadorRondaActual = TipoModificador.Normal;
+            if (textoModificador != null)
+                textoModificador.text = "¡COMODÍN! Fuerza de recuperación activada";
+        }
+        else
+        {
+            modificadorRondaActual = TipoModificador.Normal;
+            if (textoModificador != null)
+                textoModificador.text = "Ronda Normal";
+        }
     }
 
     CartaDatos ObtenerCartaAleatoria()
@@ -110,62 +206,106 @@ public class AdministradorJuego : MonoBehaviour
         }
     }
 
+    void ActualizarMarcadorUI()
+    {
+        if (textoMarcador != null)
+        {
+            textoMarcador.text = $"Jugador: {vidasJugador} | Oponente: {vidasOponente}";
+        }
+    }
+
     public void JugadorPideCambio()
     {
-        if (yaCambioJugador || juegoTerminado) return;
+        if (estadoActual != EstadoJuego.EsperandoJugador) return;
 
         cartaJugadorActual = ObtenerCartaAleatoria();
-        yaCambioJugador = true;
-        ActualizarUI();
 
-        TurnoOponente();
+        if (ControladorAudio.Instancia != null)
+        {
+            ControladorAudio.Instancia.ReproducirSFX(clipCarta);
+        }
+
+        if (DatosJuego.modoSeleccionado == DatosJuego.ModoJuego.PorPintas)
+        {
+            ActualizarModificadorPorPinta();
+        }
+
+        ActualizarUI();
+        FinalizarTurnoJugador();
     }
 
     public void JugadorSePlanta()
     {
-        if (juegoTerminado) return;
-        TurnoOponente();
+        if (estadoActual != EstadoJuego.EsperandoJugador) return;
+
+        FinalizarTurnoJugador();
     }
 
-    void TurnoOponente()
+    void FinalizarTurnoJugador()
     {
-        ActivarBotonesUI(false);
+        if (botonPedir != null) botonPedir.interactable = false;
+        if (botonPlantarse != null) botonPlantarse.interactable = false;
 
-        if (!yaCambioOponente && cartaOponenteActual.valor < umbralCambioOponente)
+        estadoActual = EstadoJuego.TurnoOponente;
+        ProcesarTurnoOponente();
+    }
+
+    void ProcesarTurnoOponente()
+    {
+        int umbralBot = 6;
+        if (vidasOponente < vidasJugador)
+        {
+            umbralBot = 8;
+        }
+
+        if (!yaCambioOponente && cartaOponenteActual.valor < umbralBot)
         {
             cartaOponenteActual = ObtenerCartaAleatoria();
             yaCambioOponente = true;
         }
 
+        estadoActual = EstadoJuego.Resolviendo;
         StartCoroutine(ResolverRondaCo());
     }
 
     IEnumerator ResolverRondaCo()
     {
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.4f);
 
-        // 1. Detectar si salieron Comodines
         VerificarEfectoJoker(jugador, cartaJugadorActual, true);
         VerificarEfectoJoker(oponente, cartaOponenteActual, false);
 
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.3f);
 
-        int valorJugador = cartaJugadorActual.valor;
-        int valorOponente = cartaOponenteActual.valor;
+        int valorJ = cartaJugadorActual.valor;
+        int valorO = cartaOponenteActual.valor;
 
-        // 2. Resolver combate físico
-        if (valorJugador > valorOponente)
+        bool ganaJugador = false;
+        bool ganaOponente = false;
+
+        if (modificadorRondaActual == TipoModificador.ReglasInvertidas)
+        {
+            if (valorJ < valorO) ganaJugador = true;
+            else if (valorO < valorJ) ganaOponente = true;
+        }
+        else
+        {
+            if (valorJ > valorO) ganaJugador = true;
+            else if (valorO > valorJ) ganaOponente = true;
+        }
+
+        if (ganaJugador)
         {
             yield return StartCoroutine(EjecutarAtaque(jugador, oponente, animJugador, true));
         }
-        else if (valorOponente > valorJugador)
+        else if (ganaOponente)
         {
             yield return StartCoroutine(EjecutarAtaque(oponente, jugador, animOponente, false));
         }
 
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(0.6f);
 
-        if (!juegoTerminado)
+        if (estadoActual != EstadoJuego.FinDelJuego)
         {
             IniciarNuevaRonda();
         }
@@ -177,7 +317,6 @@ public class AdministradorJuego : MonoBehaviour
 
         string nombreLwr = carta.nombreCarta.ToLower();
 
-        // Detecta "comodin", "joker" o valor 15
         if (nombreLwr.Contains("comodin") || nombreLwr.Contains("joker") || carta.valor == 15)
         {
             Rigidbody2D rb = personaje.GetComponent<Rigidbody2D>();
@@ -185,7 +324,6 @@ public class AdministradorJuego : MonoBehaviour
             {
                 float direccionRecuperacion = esJugador ? 1f : -1f;
                 rb.AddForce(new Vector2(direccionRecuperacion * fuerzaRecuperacionJoker, 2f), ForceMode2D.Impulse);
-                Debug.Log($"¡Comodín activado! {personaje.name} vuelve al centro.");
             }
         }
     }
@@ -193,7 +331,14 @@ public class AdministradorJuego : MonoBehaviour
     IEnumerator EjecutarAtaque(Transform atacante, Transform defensor, Animator animAtacante, bool atacanteEsJugador)
     {
         if (animAtacante != null)
+        {
             animAtacante.SetTrigger("AtaqueTrigger");
+        }
+
+        if (ControladorAudio.Instancia != null)
+        {
+            ControladorAudio.Instancia.ReproducirSFX(clipAtaque);
+        }
 
         if (atacante != null && defensor != null)
         {
@@ -212,7 +357,10 @@ public class AdministradorJuego : MonoBehaviour
             Rigidbody2D rbDefensor = defensor.GetComponent<Rigidbody2D>();
             if (rbDefensor != null)
             {
-                rbDefensor.AddForce(new Vector2(direccion * fuerzaCastigoPerder, 1f), ForceMode2D.Impulse);
+                float multiplicadorFuerza = (modificadorRondaActual == TipoModificador.DoblePunto) ? 2.0f : 1.0f;
+                float fuerzaY = (modificadorRondaActual == TipoModificador.GravedadBaja) ? 3.5f : 1.0f;
+
+                rbDefensor.AddForce(new Vector2(direccion * fuerzaCastigoPerder * multiplicadorFuerza, fuerzaY), ForceMode2D.Impulse);
             }
 
             yield return new WaitForSeconds(0.15f);
@@ -227,26 +375,73 @@ public class AdministradorJuego : MonoBehaviour
         }
     }
 
+    // Se activa cuando alguien cae al vacío (detectado por ZonaMuerte.cs)
     public void DeclararGanador(bool ganoJugador)
     {
-        if (juegoTerminado) return;
-        juegoTerminado = true;
+        if (estadoActual == EstadoJuego.FinDelJuego) return;
 
-        ActivarBotonesUI(false);
-        Debug.Log(ganoJugador ? "¡VICTORIA!" : "¡DERROTA!");
+        if (ganoJugador)
+        {
+            vidasOponente--;
+        }
+        else
+        {
+            vidasJugador--;
+        }
 
-        // Reinicia la partida 2.5 segundos después de la caída
-        Invoke(nameof(ReiniciarEscena), 2.5f);
+        ActualizarMarcadorUI();
+
+        if (vidasJugador <= 0 || vidasOponente <= 0)
+        {
+            estadoActual = EstadoJuego.FinDelJuego;
+            
+            if (botonPedir != null) botonPedir.interactable = false;
+            if (botonPlantarse != null) botonPlantarse.interactable = false;
+
+            if (textoModificador != null)
+            {
+                if (vidasJugador > 0)
+                {
+                    textoModificador.text = "¡VICTORIA TOTAL!";
+
+                    // Registra victoria si ganó en Modo Ronda
+                    if (DatosJuego.modoSeleccionado == DatosJuego.ModoJuego.ModificadoresRonda)
+                    {
+                        DatosJuego.RegistrarVictoriaRonda();
+                    }
+                }
+                else
+                {
+                    textoModificador.text = "¡DERROTA FINAL!";
+                }
+            }
+
+            Invoke(nameof(VolverAlMenu), 3.0f);
+        }
+        else
+        {
+            StartCoroutine(ReposicionarPersonajes());
+        }
     }
 
-    void ReiniciarEscena()
+    IEnumerator ReposicionarPersonajes()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        yield return new WaitForSeconds(0.8f);
+
+        Rigidbody2D rbJ = jugador.GetComponent<Rigidbody2D>();
+        Rigidbody2D rbO = oponente.GetComponent<Rigidbody2D>();
+
+        if (rbJ) { rbJ.linearVelocity = Vector2.zero; rbJ.angularVelocity = 0f; }
+        if (rbO) { rbO.linearVelocity = Vector2.zero; rbO.angularVelocity = 0f; }
+
+        jugador.position = posInicialJugador;
+        oponente.position = posInicialOponente;
+
+        IniciarNuevaRonda();
     }
 
-    void ActivarBotonesUI(bool estado)
+    void VolverAlMenu()
     {
-        if (botonPedir != null) botonPedir.interactable = estado && !yaCambioJugador;
-        if (botonPlantarse != null) botonPlantarse.interactable = estado;
+        SceneManager.LoadScene("MenuPrincipal");
     }
 }

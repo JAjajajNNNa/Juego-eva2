@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Q_diamante
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: Q de diamante
-  valor: 10
+  valor: 12
   imagenCarta: {fileID: 280633155710113452, guid: 5ca8ada267c85894fa5f8dafa0ffee5d, type: 3}

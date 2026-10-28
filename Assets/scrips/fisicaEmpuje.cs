@@ -13,9 +13,7 @@ public class fisicaEmpuje : MonoBehaviour
         if (animator == null) animator = GetComponent<Animator>();
     }
 
-    /// <summary>
-    /// Recibe el empuje físico cuando el personaje pierde el turno.
-    /// </summary>
+   
     public void ApplyPush(Vector2 direction, int resultadoCartas)
     {
         if (rb != null)
@@ -25,9 +23,7 @@ public class fisicaEmpuje : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Avanza rápido, reproduce el ataque una sola vez y vuelve al origen.
-    /// </summary>
+   
     public void ExecuteFastAttack(Vector2 direction, float distance = 1.2f, float duration = 0.25f)
     {
         StartCoroutine(RoutineFastAttack(direction, distance, duration));
@@ -35,7 +31,7 @@ public class fisicaEmpuje : MonoBehaviour
 
     private IEnumerator RoutineFastAttack(Vector2 direction, float distance, float duration)
     {
-        // Forzar la reproducción directa desde el inicio (sin doble trigger)
+        
         if (animator != null)
         {
             animator.Play("ataque_jugador", -1, 0f);
@@ -47,7 +43,7 @@ public class fisicaEmpuje : MonoBehaviour
         float elapsed = 0f;
         float halfDuration = duration / 2f;
 
-        // Avanzar hacia adelante
+        
         while (elapsed < halfDuration)
         {
             Vector3 nextPos = Vector3.Lerp(startPosition, targetPosition, elapsed / halfDuration);
@@ -58,7 +54,7 @@ public class fisicaEmpuje : MonoBehaviour
             yield return null;
         }
 
-        // Regresar al punto inicial
+       
         elapsed = 0f;
         while (elapsed < halfDuration)
         {
@@ -70,7 +66,7 @@ public class fisicaEmpuje : MonoBehaviour
             yield return null;
         }
 
-        // Asegurar posición final exacta
+        
         if (rb != null) rb.MovePosition(startPosition);
         else transform.position = startPosition;
     }

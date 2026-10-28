@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: J_trebol
   m_EditorClassIdentifier: Assembly-CSharp::CartaDatos
   nombreCarta: J de trebol
-  valor: 10
+  valor: 11
   imagenCarta: {fileID: 6042176709118852840, guid: f3cff5f6216cb3b4382c758229ccfb1f, type: 3}
